@@ -17,6 +17,8 @@ body {
     justify-content: center;
     list-style-type: none;
     padding-left: 0;
+    padding-top: 25px;
+    height: 50px;
 }
 
 .nav>li {
@@ -32,6 +34,7 @@ body {
 
 .header {
     background-color: #ffff;
+    /*height: 149px;*/
 }
 
 .header-top {
@@ -39,6 +42,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+    height: 149px;
+}
+
+.header-info span {
+    margin-right: 40px;
 }
 
 .logo {
@@ -47,6 +55,16 @@ body {
     font-weight: bold;
     line-height: 42px;
     letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    display: block;
+    height: 80px;
+    width: 80px;
+    background-image: url("../img/logo.svg");
+    margin-right: 10px;
 }
 
 .header-info span {
@@ -57,5 +75,48 @@ body {
     font-size: 14px;
     border-radius: 40px;
     border: 2px solid #66C05D;
+    padding: 10px 15px;
+}
+
+.header-bottom .nav {
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+hr {
+    border: none;
+    background-color: #E5E5E5;
+    height: 1px;
+}
+
+.banner {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 320px;
+    color: #ffff;
+    height: 604px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.banner p {
+    margin-bottom: 50px;
+    max-width: 315px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn {
+    color: #ffff;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
     padding: 10px 15px;
 }
