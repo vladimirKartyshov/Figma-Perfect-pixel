@@ -78,6 +78,12 @@ body {
     padding: 10px 15px;
 }
 
+.header-info button:hover {
+    background-color: #66C05D;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
 .header-bottom .nav {
     font-size: 16px;
     margin: 0;
@@ -119,4 +125,19 @@ hr {
     border: 2px solid #FFFFFF;
     border-radius: 40px;
     padding: 10px 15px;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
